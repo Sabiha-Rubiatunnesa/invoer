@@ -1,8 +1,5 @@
-import React from 'react';
-
 const products = [
 {
- _id: '1',
  name: 'Moringa Shower Gel 750ml',
  image: '/pic/body.jpg',
  description: `The Body Shop Moringa Shower Gel is our little gem when it comes to that shower-fresh feeling. It’s an elegantly scented body wash that leaves your skin feeling clean and revitalised.
@@ -14,14 +11,13 @@ const products = [
  🍂Enriched with Community Fair Trade moringa extract from Rwanda`,
  brand: 'The Body Shop',
  category: 'Shower Gel',
- price: '2900bdt',
+ price: 2900,
  countInStock: 3,
  rating: 4.0,
  numReviews: 4,
 },
 
 {
-    _id: '2',
     name: 'Neutrogena Hydro Boost Cleanser Water Gel 145ml',
     image: '/pic/cleanser.jpg',
     description:
@@ -38,14 +34,13 @@ const products = [
     🌸Barriercare technology`,
     brand: 'Neutrogena',
     category: 'Cleanser Water Gel',
-    price: '𝟖𝟓𝟎bdt',
+    price: 850,
     countInStock: 2,
     rating: 4.5,
     numReviews: 3,
    },
 
    {
-    _id: '3',
     name: `Palmer's Cocoa Butter Formula Moisturising body oil`,
     image: '/pic/palmer_body_oil.jpg',
     description:
@@ -58,14 +53,13 @@ const products = [
     • Vegan`,
     brand: `Palmer's`,
     category: 'Body oil',
-    price: '1800bdt',
+    price: 1800,
     countInStock: 3,
     rating: 3.5,
     numReviews: 4,
    },
 
    {
-    _id: '4',
     name: 'Simple Kind To Skin Replenishing Rich Moisturiser 125ml',
     image: '/pic/simplee.jpg',
     description:
@@ -78,14 +72,13 @@ const products = [
     🌱No artificial colours, perfume, or harsh chemicals that can upset your skin`,
     brand: 'Simple',
     category: 'Moisturiser',
-    price: '𝟕𝟓𝟎bdt',
+    price: 750,
     countInStock: 3,
     rating: 4.5,
     numReviews: 4,
    },
 
    {
-    _id: '5',
     name: `Tea tree skin cleansing face wash`,
     image: '/pic/tTree.jpg',
     description:`Features:
@@ -97,14 +90,15 @@ const products = [
     .Kind and gentle on blemished skin
     Tea tree oil:
     Size:10ml`,
-    Price : '850bdt',
-    countInStock: 3,
+    brand: `Tea tree`,
+    category: `Face wash`,
+    price : 850,
+    countInStock: 0,
     rating: 4.0,
     numReviews: 4,
    },
 
    {
-    _id: '6',
     name: 'Sukin Brightening Radiance Gel Cleanser Pump 125ml',
     image: '/pic/sukinn.jpg',
     description:
@@ -114,10 +108,10 @@ const products = [
     🍂Hydrate skin and help prevent damage caused by environmental stressors`,
     brand: 'Sukin',
     category: 'Gel Cleanser',
-    price: '𝟗𝟓𝟎bdt',
+    price: 950,
     countInStock: 3,
     rating: 4.5,
     numReviews: 4,
    }
 ]
-export default products;
+export default products
